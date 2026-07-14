@@ -15,11 +15,12 @@ body {
   clear: both;
 }
 
+/* hero section start */
 .hero {
   /* background-color: blue; */
   padding-top: 80px;
-  height: 100vh;
   font-weight: 500;
+  height: 100vh;
 }
 
 .container {
@@ -68,8 +69,6 @@ body {
     margin-left: 10px;
 }
 
-
-
 .hero-img {
   /* background-color: chartreuse; */
   width: 380px;
@@ -81,3 +80,137 @@ body {
   width: 100%;
   border-radius: 20px;
 }
+/* hero section end */
+
+/* why choose section stat */
+.why-choose-content
+{
+  /* background-color: aqua; */
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.why-choose-content h2
+{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  padding-bottom: 20px;
+}
+
+.why-choose-content p 
+{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: oklch(0.446 0.03 256.802);
+}
+
+.why-choose-cards .box1
+{
+  width: 30.33%;
+  height: 300px;
+  border: #CCE2FF solid;
+  background-color: rgba(227, 237, 252, 1.0);
+  border-radius: 20px;
+  float: left;
+  margin-right: 45px;
+}
+
+.why-choose-cards .box2
+{
+  width: 30.333%;
+  height: 300px;
+  border: rgba(220, 252, 231, 1.0) solid;
+  background-color: rgba(220, 252, 231, 1.0);
+  border-radius: 20px;
+  float: left;
+  margin-right: 45px;
+}
+
+.why-choose-cards .box3
+{
+  width: 30.333%;
+  height: 300px;
+  border: rgba(243, 232, 255, 1.0) solid;
+  background-color: rgba(243, 232, 255, 1.0);
+  border-radius: 20px;
+  float: left;
+}
+
+.why-choose-cards .box1 .inner-box {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #155DFC;
+  background-color: #155DFC;
+  border-radius: 20px;
+  margin: 40px auto 0 auto;
+  box-sizing: border-box; 
+}
+
+.why-choose-cards .box2 .inner-box {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #009966;
+  background-color: #009966;
+  border-radius: 20px;
+  margin: 40px auto 0 auto;
+  box-sizing: border-box; 
+}
+
+.why-choose-cards .box3 .inner-box {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #9810FA;
+  background-color: #9810FA;
+  border-radius: 20px;
+  margin: 40px auto 0 auto;
+  box-sizing: border-box; 
+}
+
+.why-choose-cards .inner-box .inner-square {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 2px solid white;
+  margin: 18px auto;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.why-choose-cards .inner-box .inner-circle {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 2px solid white;
+  margin: 18px auto;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.box-content
+{
+  text-align: center;
+}
+
+.box-content h3
+{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  padding-top: 25px;
+}
+
+.box-content p
+{
+  color: oklch(0.373 0.034 259.733);
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 400px;
+  padding-top: 25px;
+}
+/* why choose end */
+
+/* more details start*/
+
+/* more details end*/
