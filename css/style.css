@@ -5,10 +5,11 @@
 }
 
 body {
-  background-color: #fafbfc;
+  background-color: white;
   font-family:
     ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
+  color: oklch(0.21 0.034 264.665);
 }
 
 .clear-fix {
@@ -24,7 +25,7 @@ body {
 }
 
 .container {
-  /* background-color: blueviolet; */
+  /* background-color: red; */
   width: 70%;
   margin: auto;
 }
@@ -41,39 +42,38 @@ body {
 }
 
 .hero-content p {
-    font-size: 1.25rem;
-    color: oklch(44.6% .03 256.802);
-    padding-bottom: 24px;
+  font-size: 1.25rem;
+  color: oklch(44.6% 0.03 256.802);
+  padding-bottom: 24px;
 }
 
 .hero-content a {
-    text-decoration: none;
-    font-size: 18px;
-    display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-block;
 }
 
 .hero-content a.link1 {
-    color: white;
-    background-color: black;
-    border: black solid;
-    border-radius: 10px;
-    padding: 17px 28px;
+  color: white;
+  background-color: black;
+  border: black solid;
+  border-radius: 10px;
+  padding: 17px 28px;
 }
 
 .hero-content a.link2 {
-    color: oklch(44.6% .03 256.802);
-    background-color: #FCFDFD;
-    border: #D1D5DC solid;
-    border-radius: 10px;
-    padding: 17px 40px;
-    margin-left: 10px;
+  color: oklch(44.6% 0.03 256.802);
+  background-color: #fcfdfd;
+  border: #d1d5dc solid;
+  border-radius: 10px;
+  padding: 17px 40px;
+  margin-left: 10px;
 }
 
 .hero-img {
   /* background-color: chartreuse; */
   width: 380px;
   float: right;
-  
 }
 
 .hero-img img {
@@ -83,57 +83,51 @@ body {
 /* hero section end */
 
 /* why choose section stat */
-.why-choose-content
-{
+.why-choose-content {
   /* background-color: aqua; */
   text-align: center;
   padding-bottom: 50px;
 }
 
-.why-choose-content h2
-{
+.why-choose-content h2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
   padding-bottom: 20px;
 }
 
-.why-choose-content p 
-{
+.why-choose-content p {
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
   color: oklch(0.446 0.03 256.802);
 }
 
-.why-choose-cards .box1
-{
+.why-choose-cards .box1 {
   width: 30.33%;
   height: 300px;
-  border: #CCE2FF solid;
-  background-color: rgba(227, 237, 252, 1.0);
+  border: #cce2ff solid;
+  background-color: rgba(227, 237, 252, 1);
   border-radius: 20px;
   float: left;
   margin-right: 45px;
 }
 
-.why-choose-cards .box2
-{
+.why-choose-cards .box2 {
   width: 30.333%;
   height: 300px;
-  border: rgba(220, 252, 231, 1.0) solid;
-  background-color: rgba(220, 252, 231, 1.0);
+  border: rgba(220, 252, 231, 1) solid;
+  background-color: rgba(220, 252, 231, 1);
   border-radius: 20px;
   float: left;
   margin-right: 45px;
 }
 
-.why-choose-cards .box3
-{
+.why-choose-cards .box3 {
   width: 30.333%;
   height: 300px;
-  border: rgba(243, 232, 255, 1.0) solid;
-  background-color: rgba(243, 232, 255, 1.0);
+  border: rgba(243, 232, 255, 1) solid;
+  background-color: rgba(243, 232, 255, 1);
   border-radius: 20px;
   float: left;
 }
@@ -141,11 +135,11 @@ body {
 .why-choose-cards .box1 .inner-box {
   width: 80px;
   height: 80px;
-  border: 2px solid #155DFC;
-  background-color: #155DFC;
+  border: 2px solid #155dfc;
+  background-color: #155dfc;
   border-radius: 20px;
   margin: 40px auto 0 auto;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 .why-choose-cards .box2 .inner-box {
@@ -155,17 +149,17 @@ body {
   background-color: #009966;
   border-radius: 20px;
   margin: 40px auto 0 auto;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 .why-choose-cards .box3 .inner-box {
   width: 80px;
   height: 80px;
-  border: 2px solid #9810FA;
-  background-color: #9810FA;
+  border: 2px solid #9810fa;
+  background-color: #9810fa;
   border-radius: 20px;
   margin: 40px auto 0 auto;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 .why-choose-cards .inner-box .inner-square {
@@ -188,29 +182,197 @@ body {
   box-sizing: border-box;
 }
 
-.box-content
-{
+.box-content {
   text-align: center;
 }
 
-.box-content h3
-{
+.box-content h3 {
   font-size: 20px;
   font-weight: 700;
   line-height: 28px;
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
-.box-content p
-{
+.box-content p {
   color: oklch(0.373 0.034 259.733);
   font-size: 14px;
   line-height: 23px;
   font-weight: 400px;
   padding-top: 25px;
 }
+
+.more-details {
+  padding-block: 80px;
+}
+
+.more-details-img {
+  width: 50%;
+  float: left;
+  margin-right: 5%;
+}
+
+.more-details-img img {
+  width: 100%;
+  height: 333px;
+  border-radius: 15px;
+  display: block;
+}
+
+.more-details-content {
+  width: 45%;
+  float: left;
+}
+
+.more-details-content h3 {
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+
+.element {
+  min-height: 75px;
+  padding-inline: 15px;
+  margin-bottom: 15px;
+  border-left: solid black 5px;
+}
+
+.element h4 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.element p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: oklch(0.446 0.03 256.802);
+}
 /* why choose end */
 
-/* more details start*/
+/* Members Say start */
+.member-say {
+  background-color: #f9fafb;
+  padding-bottom: 80px;
+}
 
-/* more details end*/
+.member-say-content {
+  text-align: center;
+}
+
+.member-say-content h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  padding-top: 100px;
+}
+
+.member-say-content p {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  color: oklch(0.446 0.03 256.802);
+  padding: 20px 0 50px 0;
+}
+
+.member-cards .card1 {
+  width: 30.33%;
+  height: 250px;
+  border: #cce2ff solid;
+  background-color: rgba(227, 237, 252, 1);
+  border-radius: 20px;
+  float: left;
+  margin-right: 45px;
+}
+
+.member-cards .card2 {
+  width: 30.333%;
+  height: 250px;
+  border: rgba(220, 252, 231, 1) solid;
+  background-color: rgba(220, 252, 231, 1);
+  border-radius: 20px;
+  float: left;
+  margin-right: 45px;
+}
+
+.member-cards .card3 {
+  width: 30.333%;
+  height: 250px;
+  border: rgba(243, 232, 255, 1) solid;
+  background-color: rgba(243, 232, 255, 1);
+  border-radius: 20px;
+  float: left;
+}
+
+.client-data {
+  padding: 15px;
+}
+.client-data .client-img {
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-right: 15px;
+}
+
+.client-data .client-img img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.client-data .client-details {
+  float: left;
+  margin-top: 10px;
+}
+
+.client-details h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.client-details p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: oklch(0.446 0.03 256.802);
+}
+
+.client-opinion {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: oklch(0.373 0.034 259.733);
+}
+
+.analysis {
+  width: 100%;
+  background-color: rgba(244, 247, 250, 1);
+  border: solid rgba(226, 232, 240, 1);
+  border-radius: 20px;
+  margin-top: 50px;
+  padding: 60px 0;
+}
+
+.analysis-data {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.analysis .analysis-data p {
+  font-size: 16px;
+  color: oklch(0.446 0.03 256.802);
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.analysis .analysis-data span {
+  color: black;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+/* Members Say end */
