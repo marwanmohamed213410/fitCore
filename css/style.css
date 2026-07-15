@@ -376,3 +376,99 @@ body {
   margin-bottom: 5px;
 }
 /* Members Say end */
+
+/* contact form start */
+.contact-form {
+  padding: 48px;
+  text-align: center;
+}
+
+.contact-form h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  padding-bottom: 20px;
+}
+
+.contact-form p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: oklch(0.446 0.03 256.802);
+}
+
+.contact-form .form {
+  width: 80%;
+  overflow: hidden;
+  background-color: #f9fafb;
+  border: #f9fafb solid;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 48px;
+  text-align: left;
+}
+
+.form label {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: oklch(0.373 0.034 259.733);
+}
+
+.form input,
+.form select,
+.form textarea,
+form button {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 16px 24px;
+  height: 65px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 12px;
+  font-size: 18px;
+  font-family: inherit;
+}
+
+.form input::placeholder,
+.form textarea::placeholder,
+.form option {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.form-item {
+  float: left;
+  width: 47%;
+  margin-bottom: 20px;
+  margin-right: 3%;
+}
+
+.form-item-full {
+  width: 97%;
+  margin-bottom: 20px;
+}
+
+textarea#Goals {
+  resize: none;
+  height: 100px;
+}
+
+.form button {
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.form-item-full p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: oklch(0.446 0.03 256.802);
+}
+/* contact form end */
