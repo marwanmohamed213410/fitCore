@@ -472,3 +472,124 @@ textarea#Goals {
   color: oklch(0.446 0.03 256.802);
 }
 /* contact form end */
+
+/* footer start */
+.footer {
+  background-color: #101828;
+  color: white;
+  /* padding-top: 50px; */
+}
+
+.footer .about-us {
+  width: 45%;
+  float: left;
+  padding: 40px 5px;
+}
+
+.footer .quick-links {
+  width: 20%;
+  float: left;
+  padding: 40px;
+}
+
+.footer .contact-info {
+  width: 35%;
+  float: left;
+  padding: 40px;
+}
+
+.footer .about-us h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+
+.footer .about-us p {
+  font-weight: 400;
+  font-size: 18px;
+  color: oklch(0.707 0.022 261.325);
+  line-height: 29px;
+  margin-bottom: 20px;
+}
+
+.footer .about-us a {
+  font-weight: 400;
+  font-size: 16px;
+  color: oklch(0.707 0.022 261.325);
+  line-height: 24px;
+  text-decoration: none;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+.footer .quick-links h4,
+.contact-info h4 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+.footer .quick-links a {
+  display: block;
+  padding-bottom: 15px;
+  text-decoration: none;
+  color: oklch(0.707 0.022 261.325);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer .contact-info span,
+.footer .contact-info p {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 10px;
+}
+
+.footer .contact-info p {
+  color: oklch(0.707 0.022 261.325);
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+hr {
+  border: none; /* Removes the default browser border */
+  height: 2px; /* Sets the thickness of the line */
+  background-color: #232c3d;
+}
+
+.footer .copy-writes {
+  padding: 25px 0 70px 0;
+  font-weight: 400;
+  font-size: 14px;
+  color: oklch(0.551 0.027 264.364);
+  line-height: 20px;
+  overflow: hidden;
+}
+
+.footer .copy-writes p {
+  float: left;
+  margin: 0;
+}
+
+.footer .copy-writes a {
+  text-decoration: none;
+  color: oklch(0.551 0.027 264.364);
+}
+
+.footer .copy-writes ul li {
+  display: inline-block; 
+  list-style: none;
+  margin-left: 20px;
+}
+
+.footer .copy-writes ul {
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+/* footer end */
